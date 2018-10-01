@@ -26,6 +26,20 @@
 			zoom:20, //初始化地图层级
 			center: [120.722619, 31.260279] //初始化地图中心点
 		});
+		marker = new AMap.Marker({
+            icon: "https://webapi.amap.com/theme/v1.3/markers/n/mark_b.png",
+            position: [120.722619, 31.260279]
+        });
+        marker.setMap(map);
+		    var text = new AMap.Text({
+        text:'Location: 9Yueliangwan Road, D03 Moon Bay; Time: 31st October, 2018 16:00-00:00',
+        textAlign:'center', // 'left' 'right', 'center',
+        verticalAlign:'middle', //middle 、bottom
+        draggable:true,
+        cursor:'pointer',
+        position: [120.722619, 31.260279]
+    });
+    text.setMap(map);
 	</script>
 </body>
 
