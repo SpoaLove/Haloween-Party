@@ -12,19 +12,19 @@
     }
   </style>
 <title>AP Restaurant Haloween Party</title>
-<!--ÒýÓÃ°Ù¶ÈµØÍ¼API-->
+<!--ï¿½ï¿½ï¿½Ã°Ù¶Èµï¿½Í¼API-->
 </head>
 
 <body bgcolor="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
-  <!--°Ù¶ÈµØÍ¼ÈÝÆ÷-->
-	<img src="./images/HWAP.gif" width="100%">
+  <!--ï¿½Ù¶Èµï¿½Í¼ï¿½ï¿½ï¿½ï¿½-->
+	<img src="./images/HWAP20.gif" width="100%">
 	<div id="container"></div> 
 	<script src="https://webapi.amap.com/maps?v=1.4.10&key=0a9fa967008aac5e61364647e8cf8bd3"></script>
 	<script>
 		var map = new AMap.Map('container', {
-			resizeEnable: true, //ÊÇ·ñ¼à¿ØµØÍ¼ÈÝÆ÷³ß´ç±ä»¯
-			zoom:20, //³õÊ¼»¯µØÍ¼²ã¼¶
-			center: [120.722619, 31.260279] //³õÊ¼»¯µØÍ¼ÖÐÐÄµã
+			resizeEnable: true, //ï¿½Ç·ï¿½ï¿½Øµï¿½Í¼ï¿½ï¿½ï¿½ï¿½ï¿½ß´ï¿½ä»¯
+			zoom:20, //ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½Í¼ï¿½ã¼¶
+			center: [120.722619, 31.260279] //ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½Í¼ï¿½ï¿½ï¿½Äµï¿½
 		});
 		marker = new AMap.Marker({
             icon: "https://webapi.amap.com/theme/v1.3/markers/n/mark_b.png",
@@ -32,10 +32,10 @@
         });
         marker.setMap(map);
 		    var text = new AMap.Text({
-        text:'Location: 9Yueliangwan Road, D03 Moon Bay; Time: 31st October, 2018 16:00-00:00',
+        text:'Location: 9Yueliangwan Road, D03 Moon Bay; Time: 31st October, 2020 16:00-00:00',
         textAlign:'center', // 'left' 'right', 'center',
-        verticalAlign:'middle', //middle ¡¢bottom
-        draggable:true,
+        verticalAlign:'middle', //middle ï¿½ï¿½bottom
+        draggable:false,
         cursor:'pointer',
         position: [120.722619, 31.260279]
     });
